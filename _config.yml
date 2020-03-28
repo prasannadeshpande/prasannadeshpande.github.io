@@ -1,0 +1,36 @@
+# Site settings
+title: Prasanna Deshpande
+description: "Landing Page"
+url: "http://www.prasu.in"
+baseurl: ""
+profilepic: "/images/pd.jpg"
+bkimage: "/images/IMG_0859.jpg"
+google_analytics: UA-17466991-2
+font_awesome: "53d7a3a62b.js"
+
+author:
+  name: "Prasanna Deshpande"
+  email: prasu@prasu.in
+  twitter_username: _prasu_
+  #  facebook_username: joshgerdes
+  github_username: prasannadeshpande
+  linkedin_username: deshpandeprasanna
+  meetup_name: Azure-Meetup-Rostock-MV
+
+# Build settings
+destination: _site
+markdown: kramdown
+highlighter: rouge
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+#plugins: ['jekyll-paginate']
+exclude: ["README.md", "screenshot-overview.png"]
